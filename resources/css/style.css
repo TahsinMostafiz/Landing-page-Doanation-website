@@ -43,6 +43,12 @@ h4{
     font-size: 2.5rem;
 }
 
+h5{
+    font-size: 1.8rem;
+    color: #121212;
+    font-family: 'Poppins', sans-serif;
+}
+
 p{
     font-size: 1.6rem;
     color: #fff;
@@ -71,9 +77,16 @@ p{
     cursor: pointer;
 }
 
-.card:hover{
+/* .card:hover{
     border-color: #FF5959;
     background-color: #FFEEEE;
+} */
+
+.little-describtion{
+    color: #707070;
+    width: 55%;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 
@@ -124,10 +137,6 @@ p{
     text-align: center;
 }
 
-.donate-items p{
-    color: #707070;
-    width: 60%;
-}
 .donate-items .donate-amount{
     display: flex;
     flex-direction: row;
@@ -154,7 +163,50 @@ p{
     margin-bottom: 3rem;
 }
 
-
 /* END DONATE-SECTION DESIGN */
+
+
+/* START DONATE-PLAN-SECTION DESIGN */
+.donate-plan-describtion{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.donate-plan-card-1{
+    background-color: rgb(79, 157, 166, 15%);
+}
+
+.donate-plan-card-2{
+    background-color: rgb(255, 89, 89, 15%);
+}
+
+.donate-plan-card-3{
+    background-color: rgb(255, 244, 214, 100%);
+}
+
+.donate-plan-describtion .card{
+    flex: auto;
+    margin: 5rem 1rem;
+    padding: 1rem 2rem;
+}
+
+.donate-plan-describtion img{
+    width: 5rem;
+    height: 5rem;
+    margin: 2rem 0;
+}
+
+.donate-plan-describtion p{
+    font-size: 1.3rem;
+    color: #707070;
+    text-align: justify;
+    font-weight: 400;
+}
+
+
+/* END DONATE-PLAN-SECTION DESIGN */
+
 
 
