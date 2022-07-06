@@ -14,7 +14,24 @@ html{
 
 body{
     font-family: 'Inter', sans-serif;
-    line-height: 1.4;
+    line-height: 1.3;
+}
+
+
+/* HEADINS & PARAGRAPHS */
+
+h1{
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    font-size: 1.6rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem auto;
 }
 
 
@@ -27,16 +44,45 @@ body{
     margin: 0 auto;
 }
 
+
+/* BUTON */
 .btn{
     background: #FF5959;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 500;
     padding: 1rem 2rem;
     text-decoration: none;
     text-transform: capitalize;
-    border-radius: 1rem;
+    border-radius: .5rem;
     cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
+
+
+/* START HEADER-SECTION DESIGN */
+
+#header-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../img/donation1.jpg) no-repeat center center / cover;
+    
+}
+
+.header-items{
+    width: 60%;
+    margin: 0 auto;
+    padding: 15rem 0;
+    text-align: center;
+}
+
+.header-items .header-describtion{
+    text-align: center;
+    width: 80%;
+}
+
+.header-items .btn-donate-1{
+   margin: 5rem 0;
+}
+/* END HEADER-SECTION DESIGN */
 
 
