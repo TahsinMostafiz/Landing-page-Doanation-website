@@ -301,11 +301,19 @@ img{
     margin-bottom: 1rem;
 }
 
+.volunteer-team .card:hover h6{
+    color: #fff;
+}
+
 .volunteer-team .volunteer-team-member .title{
     font-size: 1.4rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: block;
+}
+
+.volunteer-team .card:hover .title{
+    color: #fff;
 }
 .volunteer-team .volunteer-team-member .social-link ul li{
     display: inline-block;
