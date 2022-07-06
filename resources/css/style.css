@@ -15,6 +15,7 @@ html{
 body{
     font-family: 'Inter', sans-serif;
     line-height: 1.3;
+    background: rgba(0, 0, 0, 1);
 }
 
 
@@ -27,11 +28,18 @@ h1{
     text-align: center;
 }
 
+h2{
+    font-size: 4rem;
+    color: #121212;
+    font-weight: 700;
+    text-align: center;
+}
+
 p{
     font-size: 1.6rem;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 
@@ -42,6 +50,18 @@ p{
 .row{
     max-width: 114rem;
     margin: 0 auto;
+    background: #FFF;
+}
+
+.card{
+    flex: 2rem;
+    padding: 2.5rem 0;
+    border-radius: .5rem;
+    background: #fafafa;
+    color: #707070;
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    align-items: center;
 }
 
 
@@ -76,7 +96,6 @@ p{
 }
 
 .header-items .header-describtion{
-    text-align: center;
     width: 80%;
 }
 
@@ -84,5 +103,26 @@ p{
    margin: 5rem 0;
 }
 /* END HEADER-SECTION DESIGN */
+
+/* START DONATE-SECTION DESIGN */
+
+
+.donate-items{
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.donate-items p{
+    color: #707070;
+    width: 60%;
+}
+.donate-items .donate-amount{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+
+/* END DONATE-SECTION DESIGN */
 
 
