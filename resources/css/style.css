@@ -1,0 +1,42 @@
+/* =============================== */
+/*   BASIC SETUP   */
+/* =============================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
+}
+
+
+/* =============================== */
+/*   REUSABLE COMPONENTS   */
+/* =============================== */
+
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.btn{
+    background: #FF5959;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
