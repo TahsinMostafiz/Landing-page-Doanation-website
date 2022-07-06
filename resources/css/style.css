@@ -56,6 +56,10 @@ p{
     margin: 1rem auto;
 }
 
+img{
+    width: 100%;
+}
+
 
 /* =============================== */
 /*   REUSABLE COMPONENTS   */
@@ -208,5 +212,46 @@ p{
 
 /* END DONATE-PLAN-SECTION DESIGN */
 
+/* START BLOG SECTION DESIGN */
+
+.blog-items{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.blog-items .blog-item-left{
+    flex: 50%;
+}
+
+.blog-items h2{
+    font-size: 3.5rem;
+    text-align: left;
+}
+
+.blog-items  p{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #707070;
+    padding-right: 4rem;
+}
+
+.blog-items .btn-contribute{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+
+.blog-items .blog-item-right{
+    flex: 50%;
+}
+
+.blog-items img{
+    width: 35rem;
+    height: 30rem;
+}
+/* END BLOG SECTION DESIGN */
 
 
