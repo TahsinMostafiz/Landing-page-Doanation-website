@@ -22,6 +22,10 @@ body{
     outline: 0;
 }
 
+ul li{
+    list-style: none;
+}
+
 
 /* HEADINS & PARAGRAPHS */
 
@@ -37,6 +41,7 @@ h2{
     color: #121212;
     font-weight: 700;
     text-align: center;
+    text-transform: capitalize;
 }
 h4{
     color: #707070;
@@ -45,6 +50,12 @@ h4{
 
 h5{
     font-size: 1.8rem;
+    color: #121212;
+    font-family: 'Poppins', sans-serif;
+}
+
+h6{
+    font-size: 1.6rem;
     color: #121212;
     font-family: 'Poppins', sans-serif;
 }
@@ -179,15 +190,15 @@ img{
 }
 
 .donate-plan-card-1{
-    background-color: rgb(79, 157, 166, 15%);
+    background-color: rgba(79, 157, 166, 15%);
 }
 
 .donate-plan-card-2{
-    background-color: rgb(255, 89, 89, 15%);
+    background-color: rgba(255, 89, 89, 15%);
 }
 
 .donate-plan-card-3{
-    background-color: rgb(255, 244, 214, 100%);
+    background-color: rgba(255, 244, 214, 100%);
 }
 
 .donate-plan-describtion .card{
@@ -219,7 +230,7 @@ img{
     flex-direction: row;
     width: 80%;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .blog-items .blog-item-left{
@@ -249,9 +260,66 @@ img{
 }
 
 .blog-items img{
-    width: 35rem;
+    width: 38rem;
     height: 30rem;
 }
 /* END BLOG SECTION DESIGN */
+
+/* START VOLUNTEER-TEAM SECTION DESIGN */
+
+.volunteer-items h2{
+    padding-top: 4rem;
+}
+
+.volunteer-team{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.volunteer-team .card{
+    background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    flex: auto;
+    margin: 5rem 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: .5s;
+}
+
+.volunteer-team .card:hover{
+    background-color: rgba(255, 89, 89, 0.9);
+    border-color: rgba(255, 89, 89, 0.9);
+}
+
+.volunteer-team .volunteer-team-member img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.volunteer-team .volunteer-team-member .title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: block;
+}
+.volunteer-team .volunteer-team-member .social-link ul li{
+    display: inline-block;
+}
+
+.volunteer-team .volunteer-team-member .social-link ul li a{
+    color: #707070;
+    font-size: 1.6rem;
+    margin: 0 .6rem;
+}
+
+.volunteer-team .volunteer-team-member .social-link ul li a:hover{
+    color: #FFF;
+}
+
+/* END VOLUNTEER-TEAM SECTION DESIGN */
 
 
