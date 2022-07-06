@@ -276,6 +276,7 @@ img{
     flex-direction: row;
     width: 80%;
     margin: auto;
+    padding-bottom: 5rem;
 }
 
 .volunteer-team .card{
@@ -321,5 +322,21 @@ img{
 }
 
 /* END VOLUNTEER-TEAM SECTION DESIGN */
+
+/* START SUBSCRIBE SECTION DESIGN */
+
+.subscribe-items .update-form{
+    width: 60%;
+    background: #FFF4D6;
+    padding: 7rem;
+    margin: 5rem auto 0 auto;
+    text-align: center;
+}
+
+.subscribe-items .update-form .btn-submit{
+    border: 0;
+}
+
+/* END SUBSCRIBE SECTION DESIGN */
 
 
